@@ -1,26 +1,43 @@
-ul {
+body{
+    background-image: url(website.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+  } 
+  /* dit is voot de achtergrond voor de website waarbij dit docment gekoppeld is, de background image url, zorgt ervoor dat de computer weet wellke afbeelding hij moet gebruiken
+  de background size zorgt voor de grootte van het plaatje*/
+  
+  h1{
+    font-size: 11pt;
+  }
+  h2{
+    font-size: 11pt;
+  }
+  
+  
+  ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
   }
   
   li a {
     display: block;
-    color: #000;
-    padding: 8px 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
   }
   
-
   li a:hover {
-    background-color: #555;
-    color: white;
+    background-color: #111;
   }
-
-main{
-    background-image: url(website.jpeg);
-    
-    
-}
+  
+  li a:active {
+    background-color: #04AA6D;
+  }
