@@ -3,17 +3,18 @@
 </html> <!--dit is het html-element-->
 <link rel="stylesheet" href="opmaak.css">
     <head>
-     <title>3-lagenmodel</title>
+     <title>De fysieke laag</title>
     <meta charset="utf-8">
 </head>
 <body>
-    <p> Er zijn drie soorten lagen waar de hard en software met elkaar samenwerken</p>
+    <p> De fysieke laag is van de OSI model de onderste laag en die zorgt voor de overdracht van kabels en draadloze signalen.</p>
     <img src="3TierModel.jpg" alt="bloem">
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="binairstelsel.html">Binair stelsel</a></li>
       <li><a href="kleurmodellen.html">kleurmodellen</a></li>
         <li><a href="3-lagenmodel.html">3-lagenmodel</a></li>
+        <li><a href="De fysieke laag">De fysieke laag/a></a></li>
     </ul>
     
   </body> 
