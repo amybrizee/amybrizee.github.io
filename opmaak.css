@@ -1,42 +1,100 @@
-body{
-    background-image: url;
-    background-size: cover;
-    font-family: sans-serif;
-  } 
-  
-  h1{}
-    font-size: 11pt;
-  
+/* Algemene stijlen */
+body {
+  background-image: url('achtergrond.jpg'); /* Vervang 'achtergrond.jpg' door je eigen afbeeldingspad */
+  background-size: cover;
+  font-family: sans-serif;
+  margin: 0; /* Voorkomt standaardmarges */
+  padding: 0; /* Voorkomt standaardvulling */
+}
 
-  h2{}
-    font-size: 11pt;
-  
-  
-  
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:  linear-gradient;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: pink;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #111;
-  }
-  
-  li a:active {
-    background-color: #04AA6D;
-  }
+/* Navbar-stijlen */
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: red;
+}
+
+/* Dropdown-stijlen */
+.dropdown {
+  float: left;
+  position: relative; /* Belangrijk voor positionering van de dropdown-content */
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  border: none;
+  outline: none;
+  margin: 0;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Aanvullende stijlen */
+h1, h2 {
+  font-size: 11pt;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: pink;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+li a:active {
+  background-color: #04AA6D;
+}  
