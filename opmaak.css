@@ -29,7 +29,6 @@ body {
 /* Dropdown-stijlen */
 .dropdown {
   float: left;
-  position: relative; /* Belangrijk voor positionering van de dropdown-content */
 }
 
 .dropdown .dropbtn {
